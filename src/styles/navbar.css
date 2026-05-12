@@ -1,0 +1,131 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(10,10,10,0.7);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(196,154,108,0.25);
+}
+
+.navbar__container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 18px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__logo a {
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: #c49a6c;
+  text-decoration: none;
+}
+
+.navbar__logo img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* LINKS */
+.navbar__links {
+  display: flex;
+  gap: 28px;
+}
+
+.navbar__links a {
+  color: #eaeaea;
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+.navbar__links a:hover {
+  color: #c49a6c;
+}
+
+/* CART BADGE */
+.cart {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.badge {
+  background: #c49a6c;
+  color: black;
+  font-size: 12px;
+  padding: 2px 7px;
+  font-weight: bold;
+}
+
+/* HAMBURGER */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 22px;
+  height: 2px;
+  background: #c49a6c;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .navbar__container {
+    position: relative;
+  }
+
+  /* LINKS deviennent un dropdown dans la navbar */
+  .navbar__links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+
+    background: rgba(10,10,10,0.95);
+    backdrop-filter: blur(12px);
+
+    flex-direction: column;
+    gap: 18px;
+
+    padding: 0;
+
+    max-height: 0;
+    overflow: hidden;
+
+    opacity: 0;
+    transform: translateY(-10px);
+
+    transition: all 0.35s ease;
+    border-bottom: 1px solid rgba(196,154,108,0.25);
+  }
+
+  /* OPEN STATE */
+  .navbar__links.open {
+    max-height: 300px;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .navbar__links a {
+  padding: 6px 0;
+  transition: 0.25s ease;
+}
+
+    .navbar__links a:hover {
+        color: #c49a6c;
+        transform: translateX(5px);
+    }
+  .hamburger {
+    display: flex;
+  }
+}

@@ -1,0 +1,24 @@
+.footer {
+  background: #020202;
+  border-top: 1px solid rgba(255,255,255,0.05);
+  padding: 30px;
+  text-align: center;
+  color: #aaa;
+  font-size: 0.8rem;
+}
+
+.brand-footer {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 4px;
+  background: linear-gradient(120deg, #fff, #c49a6c);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-top: 50px;
+}
+
+.footer__container p:last-child {
+  color: #c49a6c;
+  margin-top: 5px;
+}
