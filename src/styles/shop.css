@@ -1,7 +1,3 @@
-/* =========================
-   SHOP PAGE
-========================= */
-
 .shop {
   min-height: 100vh;
   background: #0a0a0a;
@@ -10,9 +6,6 @@
   padding: 90px 30px;
 }
 
-/* =========================
-   TITLE
-========================= */
 
 .shop__title {
   text-align: center;
@@ -34,9 +27,6 @@
   color: transparent;
 }
 
-/* =========================
-   GRID
-========================= */
 
 .shop__grid {
   max-width: 1350px;
@@ -53,9 +43,6 @@
   gap: 35px;
 }
 
-/* =========================
-   PRODUCT CARD
-========================= */
 
 .product {
   position: relative;
@@ -103,9 +90,6 @@
   box-shadow: 0 12px 30px rgba(0,0,0,0.35);
 }
 
-/* =========================
-   IMAGE
-========================= */
 
 .product__image {
   width: 100%;
@@ -143,9 +127,6 @@
   transform: scale(1.05);
 }
 
-/* =========================
-   INFO
-========================= */
 
 .product__info {
   padding: 22px;
@@ -171,9 +152,6 @@
   letter-spacing: 1px;
 }
 
-/* =========================
-   COLORS
-========================= */
 
 .product__colors {
   display: flex;
@@ -205,9 +183,6 @@
   border-color: #c49a6c;
 }
 
-/* =========================
-   BUTTON
-========================= */
 
 .product button {
   width: 100%;
@@ -235,9 +210,6 @@
   color: #050505;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
 
 @media (max-width: 900px) {
 

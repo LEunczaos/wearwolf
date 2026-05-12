@@ -29,7 +29,7 @@
   object-fit: contain;
 }
 
-/* LINKS */
+
 .navbar__links {
   display: flex;
   gap: 28px;
@@ -47,7 +47,7 @@
   color: #c49a6c;
 }
 
-/* CART BADGE */
+
 .cart {
   display: flex;
   gap: 6px;
@@ -62,7 +62,7 @@
   font-weight: bold;
 }
 
-/* HAMBURGER */
+
 .hamburger {
   display: none;
   flex-direction: column;
@@ -76,15 +76,14 @@
   background: #c49a6c;
 }
 
-/* MOBILE */
+
 @media (max-width: 768px) {
 
   .navbar__container {
     position: relative;
   }
 
-  /* LINKS deviennent un dropdown dans la navbar */
-  .navbar__links {
+.navbar__links {
     position: absolute;
     top: 100%;
     left: 0;
@@ -108,7 +107,6 @@
     border-bottom: 1px solid rgba(196,154,108,0.25);
   }
 
-  /* OPEN STATE */
   .navbar__links.open {
     max-height: 300px;
     padding: 20px;
@@ -130,7 +128,7 @@
   }
 }
 
-/* FIX DESKTOP */
+
 @media (min-width: 769px) {
 
   .navbar__links {
