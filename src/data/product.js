@@ -2,7 +2,7 @@ const products = [
   {
     id: 1,
     name: "Wolf Hoodie",
-    price: 45,
+    price: 45000,
     category: "hoodies",
 
     image: "/images/clothes/hoodies/green-hoodie.png",
@@ -23,7 +23,7 @@ const products = [
   {
     id: 2,
     name: "Night Tee",
-    price: 25,
+    price: 25000,
     category: "tshirts",
 
     image: "/images/clothes/tshirts/navy-tshirt.png",
@@ -44,7 +44,7 @@ const products = [
   {
     id: 3,
     name: "Shadow Jacket",
-    price: 80,
+    price: 80000,
     category: "jackets",
 
     image: "/images/clothes/jackets/olive-jacket.png",

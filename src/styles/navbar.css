@@ -129,3 +129,36 @@
     display: flex;
   }
 }
+
+/* FIX DESKTOP */
+@media (min-width: 769px) {
+
+  .navbar__links {
+    position: static !important;
+
+    display: flex !important;
+
+    flex-direction: row !important;
+
+    align-items: center !important;
+
+    gap: 28px !important;
+
+    background: transparent !important;
+
+    backdrop-filter: none !important;
+
+    border: none !important;
+
+    max-height: none !important;
+
+    overflow: visible !important;
+
+    opacity: 1 !important;
+
+    padding: 0 !important;
+
+    transform: translateY(0) !important;
+  }
+
+}

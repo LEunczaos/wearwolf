@@ -26,7 +26,7 @@ function Cart() {
 
                 <div>
                   <h3>{item.name}</h3>
-                  <p>{item.price}$</p>
+                  <p>{item.price}XAF</p>
                 </div>
 
                 <div className="cart__controls">
@@ -54,7 +54,7 @@ function Cart() {
 
           <div className="cart__footer">
 
-            <h2>Total: {totalPrice}$</h2>
+            <h2>Total: {totalPrice}XAF</h2>
 
             <button onClick={clearCart}>
               Clear Cart
